@@ -96,7 +96,7 @@ Each module is independent and purpose-built to optimize different aspects of pa
 <h3> Local Setup via Docker </h3>
 
 ```bash
-# One-click local setup
+# One-click local setup (clones the latest stable release tag; enters detached HEAD)
 
 git clone --depth 1 --branch latest https://github.com/juspay/hyperswitch
 

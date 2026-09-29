@@ -39,6 +39,8 @@ Check the Table Of Contents to jump to the relevant section.
 1. Install [Docker Compose][docker-compose-install] or [Podman Compose][podman-compose-install].
 2. Clone the repository and switch to the project directory:
 
+   > **Note:** `latest` is a release tag pointing to the most recent stable release. Git's `--branch` flag resolves tags as well, resulting in a detached HEAD state.
+
    ```shell
    git clone --depth 1 --branch latest https://github.com/juspay/hyperswitch
    cd hyperswitch
